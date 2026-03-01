@@ -20,9 +20,14 @@
   "devDependencies": {
     "@antfu/eslint-config": "^7.6.1",
     "@nuxt/eslint": "1.15.2",
-    "eslint": "^10.0.2",
+    "eslint": "^9.39.3",
     "eslint-plugin-format": "^2.0.1",
     "husky": "^9.1.7",
+    "lint-staged": "^16.3.1",
     "typescript": "^5.9.3"
+  },
+  "lint-staged": {
+    "*": "pnpm lint"
   }
+
 }
