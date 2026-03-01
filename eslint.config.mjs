@@ -11,7 +11,7 @@ export default withNuxt(
       formatters: true,
       stylistic: {
         indent: 2,
-        semi: true,
+        semi: false,
         quotes: "double",
       },
       ignores: [".pnpm-store/**", "**/migrations/*"],
@@ -39,10 +39,10 @@ export default withNuxt(
           "error",
           {
             singleline: {
-              max: 2,
+              max: 4,
             },
             multiline: {
-              max: 1,
+              max: 2,
             },
           },
         ],
